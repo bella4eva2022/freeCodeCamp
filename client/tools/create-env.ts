@@ -2,7 +2,7 @@ import { spawn } from 'child_process';
 import * as fs from 'fs';
 import * as path from 'path';
 
-import { availableLangs, Languages } from '../../shared/config/i18n';
+import { availableLangs, English } from '../../shared/config/i18n';
 import env from './read-env';
 
 const configPath = path.resolve(__dirname, '../config');
